@@ -1,0 +1,17 @@
+[gd_resource type="Theme" load_steps=2 format=3 uid="uid://byeyd4rh8sx8q"]
+
+[ext_resource type="StyleBox" uid="uid://b7r0mh1m56fql" path="res://resources/themes/cyan_style_box.tres" id="1_bvc3g"]
+
+[resource]
+Button/colors/font_hover_color = Color(0.94902, 0.94902, 0.780392, 1)
+Button/colors/font_outline_color = Color(0, 0, 0, 1)
+Button/constants/outline_size = 5
+Button/font_sizes/font_size = 24
+Button/styles/normal = ExtResource("1_bvc3g")
+Label/colors/font_outline_color = Color(0, 0, 0, 1)
+Label/colors/font_shadow_color = Color(0, 0, 0, 1)
+Label/constants/outline_size = 5
+Label/constants/shadow_offset_x = 5
+Label/constants/shadow_offset_y = 5
+Label/constants/shadow_outline_size = 5
+Label/font_sizes/font_size = 24

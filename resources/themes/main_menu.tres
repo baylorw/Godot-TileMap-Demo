@@ -1,0 +1,21 @@
+[gd_resource type="Theme" load_steps=4 format=3 uid="uid://6gmli02g6m3k"]
+
+[ext_resource type="StyleBox" uid="uid://cn8raqggenayh" path="res://resources/themes/new_style_box_flat.tres" id="1_7rbn6"]
+[ext_resource type="Texture2D" uid="uid://cjd05h5lwtkud" path="res://assets/ui/blue button_sm.png" id="1_ckp6t"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_6yt3g"]
+texture = ExtResource("1_ckp6t")
+texture_margin_left = 75.0
+texture_margin_top = 95.0
+texture_margin_right = 75.0
+texture_margin_bottom = 40.0
+
+[resource]
+default_font_size = 48
+Button/font_sizes/font_size = 32
+Button/styles/disabled = ExtResource("1_7rbn6")
+Button/styles/focus = ExtResource("1_7rbn6")
+Button/styles/hover = ExtResource("1_7rbn6")
+Button/styles/normal = ExtResource("1_7rbn6")
+Button/styles/pressed = ExtResource("1_7rbn6")
+PanelContainer/styles/panel = SubResource("StyleBoxTexture_6yt3g")
